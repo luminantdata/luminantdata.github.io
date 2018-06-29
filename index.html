@@ -1,183 +1,742 @@
-<!DOCTYPE HTML>
-<!--
-	Telephasic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Luminant Data Science Consulting</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body class="homepage">
-		<div id="page-wrapper">
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
 
-			<!-- Header -->
-				<!-- <div id="header-wrapper" style="background: url('images/1.jpg');"> -->
-				<div id="header-wrapper">
-					<div id="header" class="container">
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Luminant Data</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-						<!-- Logo -->
-							<h1 id="logo">
-								<a href="index.html" class="image-wrapper"><img style="padding-top: 10px; width: 40px;" src="images/chandelier_logo.svg"/><span> Luminant Data</span></a>
-							</h1>
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-<!-- 									<li>
-										<a href="#">Dropdown</a>
-										<ul>
-											<li><a href="#">Lorem ipsum dolor</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam dolore nisl</a></li>
-											<li>
-												<a href="#">Phasellus consequat</a>
-												<ul>
-													<li><a href="#">Lorem ipsum dolor</a></li>
-													<li><a href="#">Phasellus consequat</a></li>
-													<li><a href="#">Magna phasellus</a></li>
-													<li><a href="#">Etiam dolore nisl</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li> -->
-									<li><a href="mailto:clare@luminantdata.com">Contact</a></li>
-									<li><a href="#promo-wrapper">Services</a></li>
-									<li class="break"><a href="#clients">Featured Clients</a></li>
-									<li><a href="http://linkedin.com/in/clarecorthell">Founder</a></li>
-								</ul>
-							</nav>
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
 
-					</div>
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
 
-					<!-- Hero -->
-						<section id="hero" class="container">
-							<header>
-								<h2>Data Science Consulting</h2>
-							</header>
-							<p>We help companies build intelligent products.</p>
-							<ul class="actions">
-								<li><a href="mailto:clare@luminantdata.com" class="button">let's talk</a></li>
-							</ul>
-						</section>
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-				</div>
+</head>
 
-			<!-- Features 1 -->
-				<div class="wrapper">
-					<div class="container">
-						<div class="row">
-							<section class="major">
-							<h3>We work with clients to build intelligent systems, using existing data. Our sprint-cycle process focuses on building custom testable technology for your data and goals. With each client, we work through the stages:
-							<ul style="list-style:circle; padding: .5em 0 0 2em;">
-							<strong>
-								<li>Data Deep Dive</li>
-								<li>Data Strategy and Product Goals</li>
-								<li>Prototyping and Solution Measurement</li>
-							</strong>
-							</ul>
-							Some of our most successful clients are product teams who want to build, test, and realize the power of intelligent technology while aligning with their roadmap. We are not an R&D shop - we build testable technology utilizing already existing data and open source tools.
-							</h3>
-							</section>
-						</div>
-					</div>
-				</div>
+<body id="top">
 
-			<!-- Promo -->
-				<div id="promo-wrapper">
-					<section id="promo">
-					<div class="container">
-						<div class="row">
-							<section class="4u 12u(narrower) feature">
-								<header>
-									<h2>Data Strategy</h2>
-								</header>
-								<p>From global corporate data strategy to startup metrics, we guide leadership on operation and strategy. We also advise companies on team structure, growth, and development processes.</p>
-							</section>
-							<section class="4u 12u(narrower) feature">
-								<header>
-									<h2>Machine Learning</h2>
-								</header>
-								<p>Whether it's modeling churn likelihood, which picture to show user segments, or projecting industrial trends, we model complex problems with machine learning.</p>
-							</section>
-							<section class="4u 12u(narrower) feature">
-								<header>
-									<h2>Natural Language Processing</h2>
-								</header>
-								<p>We've built scalable systems for information extraction, processing, and modeling natural language data. Our most recent custom scalable NLP system is now open source.</p>
-							</section>
-						</div>
-					</section>
-				</div>
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
 
-			<!-- Features 2 -->
-				<div class="wrapper" id="clients" style="padding-top: 3em;">
-					<section class="container">
-						<header class="major">
-							<h2>Featured Clients</h2>
-							<p>What We've Achieved Together</p>
-						</header>
-						<div class="row features">
-							<section class="4u 12u(narrower) feature">
-								<div class="image-wrapper first">
-									<a class="image featured"><img src="client_logos/1776.png" alt="" /></a>
-								</div>
-								<p style="font-size:80%"><i>"We hired Luminant to help build a quantitative report about the startup ecosystems in cities across the country. They were a pleasure to work with throughout the process: knowledgeable, thorough, engaged, and helpful. The combination of technical skills and general analytical ability made them more than a vendor building a specific product for us; it made them a true partner on the project, helping us to conceptualize new metrics to take our work to the next level and educate ourselves along the way. They are an ideal fit for anyone trying to tackle a complex data challenge."</i>
-								<br>Patrick McAnaney, 1776.vc</p>
-								<h3><a href="http://www.1776.vc/reports/innovation-that-matters-2016/">Innovation That Matters 2016</a></h3>
-							</section>
-							<section class="4u 12u(narrower) feature">
-								<div class="image-wrapper">
-									<a class="image featured"><img src="client_logos/wordnik1.png" alt="" /></a>
-								</div>
-								<p>Wordnik is a dictionary that catalogs every word used in English on the internet. Our custom-built scalable Natural Language Processing and Machine Learning Model pipeline finds new definition of words. The final product, Serapis, is an open-source end-to-end solution using Amazon Lambda as a task pipeline. <br><br>
-								<a href="http://www.nytimes.com/2015/10/04/technology/scouring-the-web-to-make-new-words-lookupable.html">Scouring the Web to Make New Words ‘Lookupable’ <i>The New York Times</i></a></p>
-								<h3><a href="https://github.com/wordnik/serapis">Serapis on Github</a></h3>
-							</section>
-							<section class="4u 12u(narrower) feature">
-								<div class="image-wrapper">
-									<a class="image featured"><img src="client_logos/mode1.png" alt="" /></a>
-								</div>
-								<p>Development of Python tutorial series for business analysis using real-world data.</p>
-								<h3><a href="https://community.modeanalytics.com/python/">Python Tutorials</a></h3>
-							</section>
-						</div>
-					</section>
-				</div>
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo.png" style="width:50px; height:50px;" alt="Homepage">
+            </a>
+        </div> <!-- end header-logo -->
 
-			<!-- Footer -->
-				<div id="footer">
-					<div id="copyright" class="container" style="margin-top: 2em; padding-top: 2em;">
-<!-- 						<ul class="icons 4u 12u(narrower)">
-							<li class="icon fa-inbox"><a href="mailto:clare@luminantdata.com"><span class="extra">/email</span></a></li>
-							<li class="icon fa-twitter"><a href="http://twitter.com/luminant_data"><span class="extra">twitter</span></a></li>
-						</ul>
-						<ul class="actions major 4u 12u(narrower)">
-							<li><a href="mailto:clare@luminantdata.com" class="button">let's talk</a></li>
-						</ul> -->
-						<ul class="menu">
-							<li>&copy; Luminant Data, Inc. 2016. All rights reserved.</li>
-						</ul>
-					</div>
-				</div>
+<!--         <nav class="header-nav">
 
-		</div>
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
 
-		<!-- Scripts -->
+            <div class="header-nav__content">
+                <h3>Luminant Data</h3>
+                
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                     <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="services">Product</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li> 
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                </ul>
+    
+                <p>Built ❤ in Anchorage, Alaska & San Francisco.</p>
+    
+                <ul class="header-nav__social">
+                     <li>
+                        <a href="#0"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-instagram"></i></a>
+                    </li> 
+                </ul>
 
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+            </div>
 
-	</body>
+        </nav> -->
+
+<!--         <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-icon"></span>
+        </a> -->
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/DSC_0976.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
+
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+                <h1>
+                One Arctic,<br>
+                One data Atlas.
+                </h1>
+
+                <p>
+                Data & Analytics for monitoring remote geography.
+                </p>
+            </div> <!-- end home-content__main -->
+
+        </div> <!-- end home-content -->
+
+<!--         <ul class="home-sidelinks">
+            <li><a class="smoothscroll" href="#about">About<span>who we are</span></a></li>
+            <li><a class="smoothscroll" href="#services">Products<span>what we do</span></a></li>
+            <li><a  class="smoothscroll" href="#contact">Contact<span>get in touch</span></a></li>
+        </ul> -->
+
+        <ul class="home-social">
+<!--             <li class="home-social-title">Follow Us</li>
+            <li><a href="#0">
+                <i class="fab fa-facebook"></i>
+                <span class="home-social-text">Facebook</span>
+            </a></li>
+            <li><a href="#0">
+                <i class="fab fa-twitter"></i>
+                <span class="home-social-text">Twitter</span>
+            </a></li>
+            <li><a href="#0">
+                <i class="fab fa-linkedin"></i>
+                <span class="home-social-text">LinkedIn</span>
+            </a></li> -->
+        </ul> <!-- end home-social -->
+
+        <a href="#about" class="home-scroll smoothscroll">
+            <span class="home-scroll__text">Scroll Down</span>
+            <span class="home-scroll__icon"></span>
+        </a> <!-- end home-scroll -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id='about' class="s-about">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Products</h3>
+                <h1 class="display-1">The Atlas</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row" data-aos="fade-up">
+            <div class="col-full">
+                <p class="lead">
+                <b>Monitor infrastructure, land, and the environment using one single data source.</b> <br>
+                Building geographic analysis should be easy, but every organization must duplicate 
+                the work of acquiring and integrating data, which can easily incur costs of $20k 
+                per dataset in remote settings. 
+                The Atlas is an integrated data source of remote near-ground aerial geographic data. 
+                We currently service Alaska, our first market.
+                </p>
+            </div>
+        </div> <!-- end about-desc -->
+
+        <div class="row">
+                
+            <div class="about-process process block-1-2 block-tab-full">
+
+                <div class="process__vline-left"></div>
+                <div class="process__vline-right"></div>
+
+                <div class="col-block process__col" data-item="1" data-aos="fade-up">
+                    <div class="process__text">
+                        <h4>One Data Source.</h4>
+                        <p>All flights and missions integrate into one data source called <b>the Atlas</b>.
+                        	With every flight, the platform becomes more accurate and comprehensive for all customers.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-block process__col" data-item="2" data-aos="fade-up">
+                    <div class="process__text">
+                        <h4>Near-Ground Data</h4>
+                        <p>Satellite data is extremely valuable, but falls short meter to centimeter fidelity. 
+                        	Where surveying typically requires helicopters or planes, 
+                        	using unmanned aerial vehicles and sophisticated modern sensors reduces costs by 95%.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-block process__col" data-item="3" data-aos="fade-up">
+                    <div class="process__text">
+                        <h4>Integration as a Product</h4>
+                        <p>
+                        We specialize in multi-source data integration. Our software engineering, machine learning, analytics, and
+                        product teams have experience from Silicon Valley to the oil fields of Prudhoe Bay. 
+                        The data platform additionally integrates data sources from openly available monitoring programs.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-block process__col" data-item="4" data-aos="fade-up">
+                    <div class="process__text">
+                        <h4>Remote Surveying: Alaska</h4>
+                        <p>
+                        	We and our partners support fully-licensed flight planning and execution for the most 
+                        	remote and difficult surveying operations. From photogrammetry to multispectral, we reach 
+                        	the most remote environments in the Arctic with the latest technology with our network of pilots. 
+                        	Our network currently operates in Alaska.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+            <div class="col-full">
+                <h2>Pilot: Remote Sensing of Ice Thickness</h2>
+		        <p>From the most remote islands of Bering Sea to the Kobuk delta, we bring data together 
+                to solve remote analytics challenges. We piloted combinging a near-ground sensor data with
+                aerial photogrammetry to measure ice thickness. 
+                <br>
+                <i>Collaboration with <a>K2 Dronotics</a href="http://k2dron.es">, April 2018</i></p>
+		        <iframe style="display: block; margin-left: auto; margin-right: auto; width: 100%;" src="https://docs.google.com/presentation/d/e/2PACX-1vSXcUm7xfY_5uxwLjh5iITzuSqhFIwLb9TlDupgrDSG6HS1wwxs4v1RpiMLb_Jnu6pgY8GUm_kN8OM-/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            </p>
+            </div>
+
+        </div>
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <!-- <section id='services' class="s-services light-gray">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">What We Do</h3>
+                <h1 class="display-1">We have everything you need to launch and grow a successful digital business.</h1>
+            </div>
+        </div> 
+
+        <div class="row" data-aos="fade-up">
+            <div class="col-full">
+                <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse. 
+                </p>
+            </div>
+        </div> 
+
+        <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
+
+            <div class="col-block service-item " data-aos="fade-up">
+                <div class="service-icon service-icon--brand-identity">
+                    <i class="icon-tv"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h4">Brand Identity</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon  service-icon--illustration">
+                    <i class="icon-group"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h4">Illustration</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon  service-icon--web-design">
+                    <i class="icon-earth"></i>
+                </div>  
+                <div class="service-text">
+                    <h3 class="h4">Web Design</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon service-icon--product-strategy">
+                    <i class="icon-cube"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h4">Product Strategy</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon  service-icon--ui-design">
+                    <i class="icon-window"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h4">UI/UX Design</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon service-icon--mobile-dev">
+                    <i class="icon-lego-block"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h4">Mobile Development</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+
+        </div> 
+
+    </section>  -->
+
+
+    <!-- works
+    ================================================== -->
+    <!--<section id='works' class="s-works">
+                
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Featured Works</h3>
+                <h1 class="display-1">These are some of our recent design projects and we are so excited to show them to you.</h1>
+            </div>
+        </div> 
+
+        <div class="row masonry-wrap">
+            <div class="masonry">
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-lamp.jpg" class="thumb-link" title="Lamp" data-size="1050x700">
+                                <img src="images/portfolio/lamp.jpg" 
+                                     srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Lamp
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            Project Link
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+
+                    </div> 
+                </div> 
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" title="Salad" data-size="1050x700">
+                                <img src="images/portfolio/salad.jpg" 
+                                     srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Salad
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            Project Link
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> 
+                </div> 
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg"
+                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Woodcraft
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            Project Link
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> 
+                </div> 
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" title="Liberty" data-size="1050x700">
+                                <img src="images/portfolio/liberty.jpg"
+                                     srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Liberty
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            Project Link
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> 
+                </div> 
+
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-fuji.jpg" class="thumb-link" title="Fuji" data-size="1050x700">
+                                <img src="images/portfolio/fuji.jpg"
+                                     srcset="images/portfolio/fuji.jpg 1x, images/portfolio/fuji@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Fuji
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            Project Link
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> 
+                </div> 
+
+                 <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                <img src="images/portfolio/shutterbug.jpg"
+                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Lady Shutterbug
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            Project Link
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div>
+                </div>  -->
+
+            </div> 
+        </div>
+
+<!--         <div class="testimonials-wrap" data-aos="fade-up">
+
+            <div class="row">
+                <div class="col-full testimonials-header">
+                    <h2 class="h1">What Clients Are Saying.</h2>
+                </div>
+            </div>
+
+            <div class="row testimonials">
+
+                <div class="col-full testimonials__slider">
+
+                    <div class="testimonials__slide">
+                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                        <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                        Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                        <div class="testimonials__author">
+                            Tim Cook
+                            <span>CEO, Apple</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonials__slide">
+                        <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
+                        <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                        Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
+                        <div class="testimonials__author">
+                            Sundar Pichai
+                            <span>CEO, Google</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonials__slide">
+                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                        <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
+                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
+                        <div class="testimonials__author">
+                            Satya Nadella
+                            <span>CEO, Microsoft</span>
+                        </div>
+                    </div>
+                    
+                </div> 
+
+            </div> 
+
+        </div>  
+
+    </section>-->
+
+
+    <!-- stats
+    ================================================== -->
+<!--     <section id="stats" class="s-stats">
+
+        <div class="row stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+                
+            <div class="col-block stats__col ">
+                <div class="stats__count">129</div>
+                <h5>Awards Received</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">1507</div>
+                <h5>Cups of Coffee</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">108</div>
+                <h5>Projects Completed</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">103</div>
+                <h5>Happy Clients</h5> 
+            </div>
+
+        </div>
+
+    </section> -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--light">Contact Us</h3>
+                <h1 class="display-1 display-1--light">Let's talk about your remote infrastructure monitoring strategy.</h1>  <!-- add copy here later! -->
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row">
+
+            <div class="col-full contact-main" data-aos="fade-up">
+                <p>
+                <a href="mailto:#0" class="contact-email">clare@luminantdata.com</a>
+                <span class="contact-number">+1 (650) 720-5632</span>
+                </p>
+            </div> <!-- end contact-main -->
+
+        </div> <!-- end row -->
+
+        <div class="row">
+
+            <div class="col-five tab-full contact-secondary" data-aos="fade-up">
+                <h3 class="subhead subhead--light">Where To Find Us</h3>
+
+                <p class="contact-address">
+                    Anchorage, AK<br>
+                    San Francisco, CA
+                </p>
+            </div> <!-- end contact-secondary -->
+
+<!--             <div class="col-five tab-full contact-secondary" data-aos="fade-up">
+                <h3 class="subhead subhead--light">Follow Us</h3>
+
+                <ul class="contact-social">
+                    <li>
+                        <a href="#0"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-behance"></i></a>
+                    </li>
+                    <li>
+                        <a href="#0"><i class="fab fa-dribbble"></i></a>
+                    </li>
+                </ul>
+
+                <div class="contact-subscribe">
+                    <form id="mc-form" class="group mc-form" novalidate="true">
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                        <input type="submit" name="subscribe" value="Subscribe">
+                        <label for="mc-email" class="subscribe-message"></label>
+                    </form>
+                </div>
+            </div> -->
+
+        </div> <!-- end row -->
+
+        <div class="row">
+            <div class="col-full cl-copyright">
+                <span>Luminant Data / 2018</span> 
+            </div>
+        </div>
+
+        <div class="cl-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+        </div>
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">            
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
 </html>
